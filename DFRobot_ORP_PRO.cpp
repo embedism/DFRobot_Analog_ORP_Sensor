@@ -8,6 +8,7 @@ DFRobot_ORP_PRO::DFRobot_ORP_PRO(int calibration)
 float DFRobot_ORP_PRO::setCalibration(float voltage)
 {
   this->_calibration = voltage;
+  return voltage;
 }
 
 float DFRobot_ORP_PRO::getCalibration()
